@@ -5,6 +5,14 @@ The dataset used was Kaggle Fresh & Rotten Classification dataset.
 The Fresh and Rotten/Stale Fruits and Vegetables Classification Dataset is a comprehensive collection of high-quality images specifically curated for the purpose of training and evaluating classification models. 
 This dataset is designed to aid in the development of computer vision algorithms that can accurately distinguish between fresh and rotten/stale produce.
 
+```mermaid 
+flowchart LR
+ A((Start)) ---> B[Instantiation of Pytorch Data Loader]
+ B ---> C[Exploratory Data Analysis & Visualization]
+ C ---> E[Resnet Family Training & Evaluation]
+ E ---> G((End))
+```
+
 ### Models Used
 The following models from the Resnet Family of Convolutional Neural Networks were used for this project.
  - Resnet 18
